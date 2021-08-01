@@ -1,7 +1,0 @@
-window.dom = {
-    creat(string){
-        const container = document.createElement('template') // `template` 标签专门用于容纳元素
-        container.innerHTML = string.trim()
-        return container.content.firstChild
-    }
-}

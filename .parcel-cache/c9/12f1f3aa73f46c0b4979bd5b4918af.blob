@@ -1,2 +1,0 @@
-const div = dom.creat('div')
-console.log(div)
