@@ -1,0 +1,7 @@
+const div = dom.creat('<div>newDiv</div>')
+console.log(div)
+
+dom.after(test,div)
+
+const div3 = dom.creat("<div id='parent'></div>")
+dom.wrap(test, div3)
